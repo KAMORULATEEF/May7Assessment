@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  height: 100svh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #3b6161;
+}
+
+.container {
+  width: 25rem;
+  height: 45rem;
+  display: flex;
+  padding: 0 1rem;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 1rem;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid #ffffff;
+}
+
+p {
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.userinput {
+  margin: 2rem 0;
+}
+
+.input_txt {
+  border: none;
+  font-size: 1rem;
+  padding: 1rem 5rem;
+  border-radius: 1rem;
+}
+
